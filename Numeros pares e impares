@@ -1,0 +1,10 @@
+def Numeros ():
+    primero = input ('Dime un numero')
+    segundo = input ('Dime otro numero')
+    if (primero%2==0 and segundo%2==0):
+        print ('Ambos numeros son pares')
+    if (primero%2!=0 and segundo%2!=0):
+        print ('Ambos numeros son impares')
+    if (primero%2==0 and segundo%2!=0)or (primero%2!=0 and segundo%2==0):
+        print ('Un numero es par y otro impar')
+Numeros ()

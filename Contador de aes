@@ -1,0 +1,7 @@
+def Contador_aes():
+    palabra=raw_input ('dime una palabra')
+    suma=0
+    for cont in range(0,len(palabra),1):
+        if palabra[cont]=='A':
+            suma=suma+1
+Contador_aes()
